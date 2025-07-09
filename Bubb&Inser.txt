@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+// ============================
+// Function: Bubble Sort (Descending Order)
+// ============================
+void bubbleSort(int arr[], int N) {
+    bool sorted;
+    int temp;
+    do {
+        sorted = true;  // Assume the array is sorted
+        for (int i = 0; i < N - 1; i++) {
+            // Compare adjacent elements
+            if (arr[i] < arr[i + 1]) {  // Swap if the left element is smaller
+                temp = arr[i];
+                arr[i] = arr[i + 1];
+                arr[i + 1] = temp;
+                sorted = false;  // A swap means the array was not sorted yet
+            }
+        }
+        N--;  // Reduce the range of the next pass (the largest elements are already sorted at the end)
+    } while (!sorted);  // Continue until the array is fully sorted
+}
+
+// ============================
+// Function: Insertion Sort (Descending Order)
+// ============================
+void insertionSort(char arr[], int N) {
+    char temp;
+    int j;
+    for (int i = 1; i < N; i++) {
+        temp = arr[i];  // Store the element to be inserted
+        j = i - 1;
+
+        // Move elements that are smaller than temp to one position ahead
+        while (j >= 0 && arr[j] < temp) {
+            arr[j + 1] = arr[j];  // Shift element to the right
+            j--;
+        }
+        arr[j + 1] = temp;  // Insert the stored element at the correct position
+    }
+}
