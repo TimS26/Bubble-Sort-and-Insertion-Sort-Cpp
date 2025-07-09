@@ -1,1 +1,1 @@
-# Bubble-sort-Insertion-Sort-C++
+# Bubble-Sort & Insertion-Sort-C++
