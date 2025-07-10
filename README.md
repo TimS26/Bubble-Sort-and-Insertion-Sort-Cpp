@@ -36,7 +36,7 @@ Enter number of elements: 4
 Enter elements separated by spaces: 3 2 4 1
 The program will output:
 Sorted array (descending) by Bubble Sort: 4 3 2 1
--
+
 
 **How to Change Sorting Order or Algorithm
 If you want to change the sorting behavior (for example, sort in ascending order or implement an exponential sort), you need to modify the sorting function.
