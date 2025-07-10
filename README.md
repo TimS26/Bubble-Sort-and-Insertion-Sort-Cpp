@@ -27,3 +27,10 @@ This repository contains two classic sorting algorithms implemented in C++ with 
 
 ```bash
 g++ sorting_algorithms.cpp -o sorting_algorithms
+---
+Original integer array: 3 1 4 2 
+Sorted array (descending) by Bubble Sort: 4 3 2 1 
+
+Original char array: a d c b 
+Sorted array (descending) by Insertion Sort: d c b a 
+
