@@ -57,3 +57,5 @@ To change sorting order, modify the comparison on line 32:
   
 #By making these changes, the program will output:
 Sorted array (ascending): 1 2 3 4
+as well as form: c b a d
+to: a b c d
