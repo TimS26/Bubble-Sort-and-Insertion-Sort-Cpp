@@ -40,14 +40,14 @@ Sorted array (descending) by Bubble Sort: 4 3 2 1
 How to Change Sorting Order or Algorithm
 If you want to change the sorting behavior (for example, sort in ascending order or implement an exponential sort), you need to modify the sorting function.
 
-The Bubble Sort function is located between lines 6 and 23 in sorting_algorithms.cpp.
+* The Bubble Sort function is located between lines 6 and 23 in sorting_algorithms.cpp.
 To change sorting order, modify the comparison on line 11:
   -
   if (arr[i] < arr[i + 1])  // For descending order
   Change to:
   if (arr[i] > arr[i + 1])  // For ascending order
   --
-The Insertion Sort function is located between lines 25 and 40.
+* The Insertion Sort function is located between lines 25 and 40.
 To change sorting order, modify the comparison on line 32:
   -
   while (j >= 0 && arr[j] < temp)  // For descending order
